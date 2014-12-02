@@ -4,7 +4,7 @@ Minimalist Jekyll installation.
 
 Project URL: https://github.com/fernandoacorreia/docker-jekyll-base
 
-Repository URL: https://registry.hub.docker.com/u/fernandoacorreia/docker-jekyll-base/
+Repository URL: https://registry.hub.docker.com/u/fernandoacorreia/jekyll-base/
 
 ## Purpose
 
@@ -21,7 +21,7 @@ more specific images.
 ## Usage
 
 ```
-$ alias jekyll='docker run --rm -v "$PWD:/src" -p 4000:4000 fernandoacorreia/docker-jekyll-base'
+$ alias jekyll='docker run --rm -v "$PWD:/src" -p 4000:4000 fernandoacorreia/jekyll-base'
 $ jekyll build
 $ jekyll serve
 ```
